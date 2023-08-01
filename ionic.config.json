@@ -1,0 +1,7 @@
+{
+  "name": "new-pokemon-catalogue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}
