@@ -163,6 +163,29 @@ const LoginPage = () => {
               Login
             </Button>
           </Stack>
+
+          <Flex
+            marginTop="50px"
+            justifyContent="space-between"
+            alignItems="center"
+          >
+            <Divider mx="10px" />
+            <Text color="gray.200">Or</Text>
+            <Divider mx="10px" />
+          </Flex>
+
+          <Button
+            marginTop="30px"
+            colorScheme="whiteAlpha"
+            border="0.5px solid gray"
+          >
+            <Flex justifyContent="center" alignItems="center">
+              <Image src="/google.svg" width="20px" alt="login with google" />
+              <Text color="black" ml="20px">
+                Login With Google
+              </Text>
+            </Flex>
+          </Button>
         </Flex>
       </Flex>
     </Box>

@@ -1,10 +1,17 @@
+"use client";
+
+import ChatDetail from "@/components/ChatDetail/page";
+import ChatList from "@/components/ChatList/page";
 import Sidebar from "@/components/sidebar/page";
+import { Flex } from "@chakra-ui/react";
 
 const ChatPage = () => {
   return (
-    <div>
-      <Sidebar></Sidebar>
-    </div>
+    <Flex>
+      <Sidebar />
+      <ChatList />
+      <ChatDetail />
+    </Flex>
   );
 };
 

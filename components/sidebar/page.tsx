@@ -63,10 +63,7 @@ export default function Sidebar() {
   return (
     <>
       <Flex
-        position="fixed"
-        top="0"
-        left="0"
-        bottom="0"
+        height="100vh"
         width={isSmall ? "5%" : "20%"}
         padding={isSmall ? "0px" : "20px"}
         boxShadow="md"
@@ -188,6 +185,7 @@ export default function Sidebar() {
           sm: "block",
           base: "block",
         }}
+        height="50px"
         onClick={handleDrawerOpen}
         flexDir="column"
         padding="15px"
